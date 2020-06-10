@@ -1,0 +1,55 @@
+/**General Settings and Body**/
+* {
+    font-family: 'Allerta', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #6d0a86;
+    color: greenyellow;
+}
+
+/**Title of Mini App**/
+
+.title {
+    /* position: relative; */
+    padding-top: 2em;
+    padding-bottom: 5em;
+}
+
+/**Input Settings**/
+
+input {
+    padding: 10px 30px;
+    
+}
+
+.inputTip[type=text]:focus {
+    border: 5px solid rgb(45, 179, 4);
+}
+
+
+/**Button**/
+
+button {
+    color: greenyellow;
+    background-color: #6d0a86;
+    padding: 30px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 #dfabda;
+    transition-duration: 0.5s;
+}
+
+.tipButton {
+    position: relative;
+    padding-top: 7em;
+}
+
+/**Footer**/
+
+
+footer {
+    padding-top: 9em;
+}
